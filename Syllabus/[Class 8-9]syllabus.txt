@@ -1,0 +1,174 @@
+Day-1: HTML, CSS recap, as well as a short intro to JS
+	-Theory:
+		- What is HTML?
+		- History of HTML?
+		- The first website made(still up and running)
+		- Basic Tags
+			- Text Formatting: h1, heading hirarchy, i, strong, br
+			- Grouping: section, main, header
+
+		- What is CSS?
+		- CSS selectors:
+			- class selectors (.className)
+			- ID selector (#idName)
+		-Basic CSS properties:
+			- Text: font-size, font-weight, color, font-style
+			- Decoration: background-color, border, border-radius
+		-Linking CSS to html file:
+			- Inline CSS
+			- Internal CSS: <style></style>
+			- External CSS: <link rel="stylesheet" type="text/css" href="./style.css" />
+
+		-Short Intro to JavaScript:
+			- What is JS?
+			- HTML, CSS and JS: Human body analogy.
+			- Intro to <script></script> tag.
+
+	-Pratical:
+		- Make a basic protfolio webpage using html and css
+
+
+Day-2: JavaScript Basics:
+	-Theory:
+		- Brief History of JavaScript(made in 10 days, called ecmaScript, changed to javaScript to take advantage of java's popularity)
+		- How to run JS?(with node)
+		- Variables and Variable Declarations(var, let, const)
+		- Variable naming rules(camelCase)
+		- Data types:
+			- Number
+			- Strings
+			- Booleans
+			- 
+		- Comparision Operators:
+			- Assignment: =
+			- Arithmetics: +, -, /, *, %
+			- Equality Operator: ==
+			- Less than: <
+			- More than: >
+			- Logical operators:
+				- Logical OR
+				- Logical AND
+				- Logical NOT
+
+		- Arrays:
+			- Array Declaration.
+			- Array Index
+			- Index starts from 0
+			- Accessing elements of an array
+		-Objects:
+			- Object Declaration
+			- Accessing Object items
+		-Conditional Statements:
+			- if else
+			- else if chaining
+		-Loops:
+			- What is loop?
+			- Types of Loops:
+				- For loop
+				- While loop
+				- Do While loop
+
+	-Practical:
+		- Setting up javascript runtime:
+			- Downloading node installer (A brief about node while it's downloading)
+			- Setting up node
+		-Logging "Hello World" in browser console:
+			- Code
+			- Inspect console in browser
+		- Performing basic arithmetic operations
+		- Declaring and using variables
+		- Using loops and conditionals
+
+Day-3: DOM manipulation
+	- Theory:
+		- Functions:
+			- What is a Function?(Re-useable blocks of code)
+			- Types of Function:
+				- Library functions: console.log(), String.replace(), etc
+				- User Defined Function: 
+					- How to declare a function?
+					- Function Signature and arguments
+					- Return statement
+					- Ways to declare functions:
+						function statement (only) :
+							function name(){}
+		- What is DOM?
+		- Capturing elements:
+			- document.getElementById, document.getElementsByClassName, document.querySelector.
+		- DOM event:
+			- What is an event?
+			- How do perform action when an event occures?
+			- Event listeners:
+				- What is an event listener?
+				- Adding an event listener: document.addEventListener(event, callback)
+		- Creating HTML elements with JS:
+			- document.createElement
+			- HTMLElement.style
+			- HTMLElement.classList.add/remove
+			- document.body.appendChild()
+			- HTMLElement.appendChild()
+
+
+	-Pratical:	
+		- Constructing an Array
+		- Constructing an Object
+		- Using loop to display all elements of an Array
+		- Building a custom function:
+			- To filter out numbers from an array.
+			- To check if a number is Even or Odd
+		- Build a random text generator using button clicks and array of Strings
+
+Day-4:
+	-Theory:
+		- The Fetch API:
+			- What is an API?
+			- What is fetch API?
+			- Async/await
+		- REST API:
+			- What is a REST API?
+			- GET, POST, PUT, DELETE requests
+		- API endpoints as data stores
+		- Using Fetch API to get data from api endpoint.
+		- Reveal Final Project: A product listing app
+
+
+	-Pratical:
+		- Introduce dummyjson.com, for dummy datas
+		- Use fetch api:
+			- Fetch API sytnax in pratice.
+			- Logging data from the API endpoint.
+		- Using custom function to manipulate fetched data:
+			- Filtering out products based on their price.
+			- Filter out products based on their type
+
+Day-5:
+	- Theory(short class):
+		- Media Queries in CSS:
+			- What is Media query?
+			- Responsive Design
+		- Introduce Git and github
+			- What is git and github?
+			- Why use git and github?
+		- Introduce capacitor js:
+			- Why use? (To convert code for andiod app)
+
+		- Introduce npm:
+			- What is npm?
+
+		- Explain why github is required for this.
+		- A very very brief about Github Actions
+
+	- Pratical:
+		- Setting up github account,
+		- Installing capacitor in system using npm
+		- Setting up project.
+		- Start Building project:
+
+Day 6:
+	-Theory: No theory
+	- Pratical:
+		- Continue building the app
+		- Finish the app
+		- Push code to github.
+		- Publish the website using Github Actions.
+		- Use github actions to genreate .apk artifact

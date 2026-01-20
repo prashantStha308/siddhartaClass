@@ -1,0 +1,130 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 40px;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.header-list{
+	display: flex;
+	gap: 25px;
+}
+
+.header-list-item{
+	list-style-type: none;
+}
+
+.header-list-item a:hover {
+	color: red;
+}
+
+.text-center{
+	text-align: center;
+}
+
+#student-list{
+	padding: 80px;
+	box-sizing: border-box;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+	gap: 10px;
+}
+
+.student-list-item{
+	display: flex;
+	align-items: center;
+	padding: 20px 40px;
+	gap: 45px;
+	justify-content: space-evenly;
+
+	background-color: #FFFAFA;
+
+	border-radius: 10px;
+	box-shadow: 0 2px 5px black;
+}
+
+.std-sect{
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.text-big{
+	font-size: 18px;
+}
+
+.text-medium{
+	font-size: 16px;
+}
+
+.text-small{
+	font-size: 12px;
+}
+
+.text-faded{
+	color: #52525B;
+}
+
+.btn-container{
+	display: flex;
+	flex-direction: column;
+	gap:4px
+}
+
+.std-rmv-btn{
+	background-color: #DC2626;
+	color: white;
+	font-weight: 600;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 7px 5px;
+	cursor: pointer;
+}
+
+.std-rmv-btn:hover{
+	background-color: #B91C1C;
+}
+
+.std-action-btn{
+	background-color: #16A34A;
+	color: white;
+	font-weight: 600;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 7px 5px;
+	cursor: pointer;
+}
+
+.std-action-btn:hover{
+	background-color: #15803D;
+}
+
+.text-red{
+	color: red;
+}
+
+.text-green{
+	color: green;
+}
+
+.registration-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}

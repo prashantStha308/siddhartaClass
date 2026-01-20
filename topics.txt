@@ -1,0 +1,50 @@
+Topics to study:
+1. HTML:
+	- What is HTML?
+	- What is a Markup and a Markup language?
+	- Closing and non-closing tags
+	- Basic tags:
+	- Form tag:
+		- Input tags: types: text, number, email, password, radio, checkbox
+	- division tag(div) , section tag, break line(br)
+	- paragraph tag(p), image tag(img)
+	- List tags: unordered list(ul), ordered list(ol), list-item(li)
+	- Link: anchor tag(a), href
+2. CSS:
+	- Use case of CSS
+	- Selectors:
+		- Class selector: (.class-name)
+		- ID selector: (#id-name)
+		- Element selector: (element-name)
+	- The box model:
+		- Margin, Padding, Border
+	-Basic Properties:
+		- Background: background-color, background-image
+		- Font: font-size, font-weight, font-style
+		- color: background-color, color(for text), border-color
+		- Border: border, border-color, border-radius
+		- Flex-box: display: flex justify-content, align-content, align-items, justify-items, flex-direction
+
+3. JavaScript:
+	- What is Javascript?
+	- Why is Javascript used?
+	- Variable declaration in JavaScript:
+		let, var, const
+	- Conditional statement in JavaScript:
+		if(){
+			//code
+		}else{
+			//code
+		}
+	- Loops:
+		'for' loop:
+			for(){
+				//code
+			}
+		'while' loop:
+			while(condition){
+				//code
+			}
+
+Note:
+JavaScript is not part of the regular syllabus for classes 7, 8, and 9.However, students are encouraged to go through the  mentioned JavaScript topics for better understanding and maximum effectiveness in the workshop.

@@ -1,0 +1,111 @@
+Day-1: HTML recap. Intro to CSS
+-Theory:
+    - What is HTML?
+    - History of HTML?
+    - The first website made (still up and running)
+    - Basic Tags:
+        - Text Formatting: h1, heading hierarchy, i, strong, br
+        - Grouping: section, main, header
+    - What is CSS?
+    - CSS selectors:
+        - class selectors (.className)
+        - ID selector (#idName)
+    - Basic CSS properties:
+        - Text: font-size, font-weight, color, font-style, text-align
+        - Decoration: background-color, border, border-radius
+        - Box spacing: margin, padding
+        - Width and height
+        - Display: block, inline, inline-block
+    - Linking CSS to html file:
+        - Inline CSS
+        - Internal CSS: <style></style>
+        - External CSS: <link rel="stylesheet" type="text/css" href="./style.css" />
+
+-Practical:
+    - Make a basic school webpage skeleton using HTML and CSS
+    - Sections: Header with school name, About section, Footer with contact info
+    - Style header/footer background color, font color, borders, padding, text-align
+    - Set width and height for sections
+    - Add spacing using margin and padding
+
+Day-2: Introduction to JavaScript Basics
+-Theory:
+    - What is JavaScript?
+    - Where to write JS: <script> tag in HTML
+    - Variables: let and const, naming rules (camelCase)
+    - Basic data types: number, string
+    - Simple operations: +, -, *, /
+    - Logging output: console.log()
+    - Functions:
+        - Simple function declaration:
+            function greet() { console.log("Hello!"); }
+    - Event listeners (concept): respond to button clicks
+
+-Practical:
+    - Add a button: “Click me” → prints “Welcome to our school!”
+    - JS calculates 5 + 10 and displays in console
+
+Day-3: DOM Manipulation Basics
+-Theory:
+    - What is DOM? (HTML as objects)
+    - Selecting elements: document.getElementById(), document.querySelector()
+    - Changing content: .innerText / .innerHTML
+    - Simple events: button click, reading input value
+
+-Practical:
+    - Create a simple todo list input:
+        - Input box + Add button
+        - On click: read input → add <li> to <ul>
+        - Optional: Add “Delete” button for each item
+    - Items disappear on page reload
+
+Day-4: CSS Layouts and Styling
+-Theory:
+    - CSS review: colors, fonts, borders
+    - Box model: margin, padding, border
+    - Flexbox basics: display: flex; justify-content: space-around; align-items: center
+    - Positioning: relative, absolute (simple usage)
+    - Hover effects: :hover
+    - Fonts: font-family, font-size
+    - Background images and gradients (basic)
+    - Border styles: solid, dotted, dashed
+
+-Practical:
+    - Style school website sections: About, Teachers, Announcements
+    - Make todo list visually appealing:
+        - Background colors for items
+        - Hover highlight for items
+        - Flexbox layout for input + add button
+    - Add padding, margin, and border-radius to cards and sections
+    - Use colors, fonts, and borders consistently for header/footer
+
+Day-5: Project Work – School Website + Todo App
+-Theory (short class):
+    - Planning website: what sections to include
+    - JS recap: DOM + events → todo app
+    - Optional: school theme colors and fonts
+    - Introduction to media queries:
+        - Basic idea of responsive design
+        - Example: adjust font-size or layout for smaller screens
+
+-Practical:
+    - Build complete school website:
+        - Header + navigation
+        - About section
+        - Teachers section
+        - Announcements section
+        - Todo app section
+    - Style website with CSS:
+        - Use flexbox/grid for layout
+        - Responsive adjustments using simple media queries
+        - Buttons hover effects
+        - Section background colors and spacing
+
+Day-6: Final Touches
+-Theory: no theory
+
+-Practical:
+    - Polish website: spacing, colors, fonts, borders
+    - Build the todo app
+    - Integrate todo in webpage
+    - Showcase website to class
