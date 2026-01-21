@@ -56,7 +56,6 @@ Day-3: DOM Manipulation Basics
     - Create a simple todo list input:
         - Input box + Add button
         - On click: read input → add <li> to <ul>
-        - Optional: Add “Delete” button for each item
     - Items disappear on page reload
 
 Day-4: CSS Layouts and Styling
@@ -83,7 +82,6 @@ Day-5: Project Work – School Website + Todo App
 -Theory (short class):
     - Planning website: what sections to include
     - JS recap: DOM + events → todo app
-    - Optional: school theme colors and fonts
     - Introduction to media queries:
         - Basic idea of responsive design
         - Example: adjust font-size or layout for smaller screens
